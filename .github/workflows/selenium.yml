@@ -39,5 +39,5 @@ jobs:
       run: |
         export CHROME_PATH=$(which chrome)
         export CHROMEDRIVER_PATH=$(which chromedriver)
-        pytest -v test_search.py
+        pytest -v test_busqueda.py
     
